@@ -2,7 +2,17 @@ BASEDIR=$(dirname $0)
 
 case "$1" in
 "init")
-    echo "Hello World"
+    read -p "Enter the project name: " FULL_PATH_TO_PROJECT
+    while [ FULL_PATH_TO_PROJECT == "" ]
+    do
+        read -p "Enter the project name: " FULL_PATH_TO_PROJECT
+    done
+    echo $PWD " --> " $FULL_PATH_TO_PROJECT
+    FULL_PATH_TO_PROJECT=$PWD/$FULL_PATH_TO_PROJECT
+    mkdir $FULL_PATH_TO_PROJECT
+    cp -r /usr/lib/node_modules/joapp/resources/jQuery/* $FULL_PATH_TO_PROJECT
+    cd $FULL_PATH_TO_PROJECT
+    git init
     ;;
 "help")
     echo "Some help messages"
