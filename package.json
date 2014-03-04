@@ -13,7 +13,7 @@
     "initialization"
   ],
   "bin": {
-    "joapp": "./bin/joapp",
+    "joapp": "./bin/joapp"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com>",
   "license": "MIT",
