@@ -52,6 +52,8 @@ Copying hello world web application ...
 Initializing git repository ...
 Initialized empty Git repository in /home/username/Documents/test/hello-world2/.git/
 Finished.
+$ ls
+hello-world  hello-world2
 ```
 
 ## Changelog
