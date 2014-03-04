@@ -1,9 +1,11 @@
+BASEDIR=$(dirname $0)
+
 case "$1" in
 "init")
-    $PWD/joapp_init
+    echo "Hello World"
     ;;
 "help")
-    $PWD/joapp_help
+    echo "Some help messages"
     ;;
 "")
     echo "A second argument is required. Type 'joapp help' for help"
