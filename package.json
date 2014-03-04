@@ -1,6 +1,6 @@
 {
   "name": "joapp",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A collection of small scripts that help you a lot when you create a new web application.",
   "main": "index.js",
   "scripts": {

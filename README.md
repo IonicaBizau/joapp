@@ -54,5 +54,10 @@ Initialized empty Git repository in /home/username/Documents/test/hello-world2/.
 Finished.
 ```
 
+## Changelog
+
+ - `0.1.0`
+    Initial release
+
 ## License
 See the LICENSE file.
