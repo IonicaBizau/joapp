@@ -54,6 +54,16 @@ Initialized empty Git repository in /home/username/Documents/test/hello-world2/.
 Finished.
 $ ls
 hello-world  hello-world2
+$ tree -d ./
+./
+├── hello-world
+│   ├── css
+│   └── js
+└── hello-world2
+    ├── css
+    └── js
+
+6 directories
 ```
 
 ## Changelog
