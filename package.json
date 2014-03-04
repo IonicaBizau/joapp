@@ -12,6 +12,10 @@
     "scripts",
     "initialization"
   ],
+  "bin": {
+    "joapp init": "./bin/joapp_init",
+    "joapp help": "./bin/joapp_help"
+  },
   "author": "Ionică Bizău <bizauionica@gmail.com>",
   "license": "MIT",
   "repository": {
