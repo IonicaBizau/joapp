@@ -1,5 +1,5 @@
 {
-  "name": "japp",
+  "name": "joapp",
   "version": "0.0.0",
   "description": "A collection of small scripts that help you a lot when you create a new web application.",
   "main": "index.js",
@@ -13,5 +13,13 @@
     "initialization"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IonicaBizau/joapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/joapp/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/joapp"
 }
