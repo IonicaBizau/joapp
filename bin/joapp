@@ -5,16 +5,21 @@ BASEDIR=$(dirname $0)
 case "$1" in
 "init")
     read -p "Enter the project name: " FULL_PATH_TO_PROJECT
-    while [ FULL_PATH_TO_PROJECT == "" ]
+    while [ "$FULL_PATH_TO_PROJECT" = "" ]
     do
+        echo "The project name cannot be empty."
         read -p "Enter the project name: " FULL_PATH_TO_PROJECT
     done
-    echo $PWD " --> " $FULL_PATH_TO_PROJECT
+    echo "Full Path" $FULL_PATH_TO_PROJECT
     FULL_PATH_TO_PROJECT=$PWD/$FULL_PATH_TO_PROJECT
+    echo "Creating $FULL_PATH_TO_PROJECT directory ..."
     mkdir $FULL_PATH_TO_PROJECT
+    echo "Copying hello world web application ..."
     cp -r /usr/lib/node_modules/joapp/resources/jQuery/* $FULL_PATH_TO_PROJECT
+    echo "Initializing git repository ..."
     cd $FULL_PATH_TO_PROJECT
     git init
+    echo "Finished."
     ;;
 "help")
     echo "  "
