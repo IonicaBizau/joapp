@@ -1,3 +1,5 @@
+BOLD=`tput bold`
+NORMAL=`tput sgr0`
 BASEDIR=$(dirname $0)
 
 case "$1" in
@@ -15,7 +17,22 @@ case "$1" in
     git init
     ;;
 "help")
-    echo "Some help messages"
+    echo "  "
+    echo "  ${BOLD}Jo${NORMAL}hnny${BOLD}App${NORMAL}lication"
+    echo "  A collection of small scripts that help you a lot when you create"
+    echo "  a new web application."
+    echo "  "
+    echo "  usage: joapp [actions] [options]"
+    echo "  "
+    echo "  actions:"
+    echo "    init           inits a new web application"
+    echo "    help           display this help content"
+    echo "  "
+    echo "  options:"
+    echo "      No options in this version."
+    echo "  "
+    echo "  Documentation can be found at https://github.com/IonicaBizau/joapp/"
+    echo "  "
     ;;
 "")
     echo "A second argument is required. Type 'joapp help' for help"
