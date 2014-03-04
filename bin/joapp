@@ -1,9 +1,12 @@
 case "$1" in
 "init")
-    ./joapp_init
+    $PWD/joapp_init
     ;;
 "help")
-    ./joapp_help
+    $PWD/joapp_help
+    ;;
+"")
+    echo "A second argument is required. Type 'joapp help' for help"
     ;;
 *)
     echo "Unknown command. Type 'joapp help' for help"
