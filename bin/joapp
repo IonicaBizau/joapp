@@ -21,9 +21,9 @@ case "$1" in
     git init
     echo "Finished."
     ;;
-"help")
+"--help")
     echo "  "
-    echo "  ${BOLD}Jo${NORMAL}hnny${BOLD}App${NORMAL}lication"
+    echo "  JoApp"
     echo "  A collection of small scripts that help you a lot when you create"
     echo "  a new web application."
     echo "  "

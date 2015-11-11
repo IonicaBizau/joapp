@@ -1,6 +1,6 @@
 {
   "name": "joapp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A collection of small scripts that help you a lot when you create a new web application.",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,8 @@
   "bin": {
     "joapp": "./bin/joapp"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
   "repository": {
     "type": "git",
     "url": "git://github.com/IonicaBizau/joapp.git"
@@ -24,5 +24,64 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/joapp/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/joapp"
+  "homepage": "https://github.com/IonicaBizau/joapp",
+  "blah": {
+    "documentation": [
+      {
+        "p": "To create a *Hello World* web application, run:"
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": "$ joapp init"
+        }
+      }
+    ],
+    "show_docs_md": false,
+    "example": [
+      {
+        "h2": "Example"
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": [
+            "$ ls",
+            "hello-world",
+            "$ joapp init",
+            "Enter the project name:",
+            "The project name cannot be empty.",
+            "Enter the project name: hello-world2",
+            "Full Path hello-world2",
+            "Creating /home/username/Documents/test/hello-world2 directory ...",
+            "Copying hello world web application ...",
+            "Initializing git repository ...",
+            "Initialized empty Git repository in /home/username/Documents/test/hello-world2/.git/",
+            "Finished.",
+            "$ ls",
+            "hello-world  hello-world2",
+            "$ tree ./",
+            "./",
+            "├── hello-world",
+            "│   ├── css",
+            "│   │   └── style.css",
+            "│   ├── index.html",
+            "│   └── js",
+            "│       ├── functions.js",
+            "│       └── jquery.min.js",
+            "└── hello-world2",
+            "├── css",
+            "│   └── style.css",
+            "├── index.html",
+            "└── js",
+            "├── functions.js",
+            "└── jquery.min.js",
+            "",
+            "6 directories, 8 files"
+          ]
+        }
+      }
+    ],
+    "license_year": "2014\n"
+  }
 }
