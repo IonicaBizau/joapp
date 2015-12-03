@@ -2,36 +2,6 @@
 
 A collection of small scripts that help you a lot when you create a new web application.
 
-## Installation
-
-You can install the package globally and use it as command line tool:
-
-```sh
-$ npm i -g joapp
-```
-
-Then, run `joapp --help` and see what the CLI tool can do.
-
-```sh
-$ joapp --help
-  
-  JoApp
-  A collection of small scripts that help you a lot when you create
-  a new web application.
-  
-  usage: joapp [actions] [options]
-  
-  actions:
-    init           inits a new web application
-    help           display this help content
-  
-  options:
-      No options in this version.
-  
-  Documentation can be found at https://github.com/IonicaBizau/joapp/
-  
-```
-
 ## Example
 ```sh
 $ ls
@@ -68,29 +38,17 @@ $ tree ./
 6 directories, 8 files
 ```
 
-## Documentation
-
-To create a *Hello World* web application, run:
-
-```sh
-$ joapp init
-```
-
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
 ## License
 
-[KINDLY][license] © [Ionică Bizău][website]
+[MIT][license] © [Ionică Bizău][website]
 
-[license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2014
-
-[website]: http://ionicabizau.net
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
+[license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(http%3A%2F%2Fionicabizau.net)&year=2014#license-mit
+[website]: http://ionicabizau.net
 [contributing]: /CONTRIBUTING.md
 [docs]: /DOCUMENTATION.md
