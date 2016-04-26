@@ -1,3 +1,4 @@
+
 # `$ joapp` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/joapp.svg)](https://www.npmjs.com/package/joapp) [![Downloads](https://img.shields.io/npm/dt/joapp.svg)](https://www.npmjs.com/package/joapp) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A collection of small scripts that help you a lot when you create a new web application.
@@ -38,7 +39,8 @@ $ tree ./
 6 directories, 8 files
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 To create a *Hello World* web application, run:
 
@@ -46,10 +48,11 @@ To create a *Hello World* web application, run:
 $ joapp init
 ```
 
-## How to contribute
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## License
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
