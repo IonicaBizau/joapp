@@ -16,6 +16,7 @@ To create a *Hello World* web application, run:
 $ joapp init
 ```
 
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
